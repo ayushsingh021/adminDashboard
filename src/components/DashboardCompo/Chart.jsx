@@ -25,7 +25,7 @@ export default function Chart() {
   //   };
 
   return (
-    <main className="flex justify-between padding-x py-10 z-10 w-1/2 rounded-lg">
+    <main className="flex justify-between padding-x py-10 z-0 w-1/2 rounded-lg">
       <Box sx={{ width: "100%" }}>
         <BarChart
           height={300}

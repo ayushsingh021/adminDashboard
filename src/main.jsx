@@ -16,12 +16,14 @@ import Dashboard from "./components/Dashboard/Dashboard.jsx";
 import Company from "./components/Company/Company.jsx";
 import AddCompany from "./components/Company/AddCompany.jsx";
 import UpdateCompany from "./components/Company/UpdateCompany.jsx";
+import Schedule from "./components/DashboardCompo/Schedule.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route path="" element={<Dashboard />} />
       <Route path="company" element={<Company />} />
+      <Route path="schedule" element={<Schedule />} />
       <Route path="add_company" element={<AddCompany />} />
       <Route path="update_company" element={<UpdateCompany />} />
     </Route>
